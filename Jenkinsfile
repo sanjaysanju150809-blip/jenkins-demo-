@@ -12,12 +12,12 @@ pipeline {
  
         stage('Compile Code') { 
             steps { 
-                bat 'javac demo.java' 
+                bat 'javac Addition.java' 
             } 
         }
           stage('Run Code') { 
             steps { 
-                bat 'java demo' 
+                bat 'java Addition' 
             } 
         } 
  
